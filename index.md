@@ -1,7 +1,7 @@
 # Welcome to IT-Kombinat.org
 
-## SpaaS with Snort and Cowrie (Honeypot)
-Deploying Splunk (SpaaS), Snort and Cowrie (Honeypot) with Ansible
+## SpaaS with Snort (IDS) and Cowrie (Honeypot)
+Second Demo - Deploying Splunk (SpaaS), Snort and Cowrie (Honeypot) with Ansible
 
 Splunk as a Service with on-boarding of the following services
  - Badguy
