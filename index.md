@@ -11,7 +11,7 @@ Splunk as a Service with on-boarding of the following services
 
 **Presentation Slides**
 
-[Splunk-Demo-Slides-Cowrie](https://github.com/it-kombinat/slides-splunk-snort)
+[Splunk-Demo-Slides-Cowrie](https://it-kombinat.github.io/slides-splunk-snort/)
 
 
 ## Splunk Demo
