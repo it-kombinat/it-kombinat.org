@@ -9,6 +9,10 @@ Splunk as a Service with on-boarding of the following services
  - SNORT
  - Cowrie (honeypot)
 
+```
+git clone https://github.com/it-kombinat/splunk-demo.git
+```
+
 **Presentation Slides**
 
 [Splunk-Demo-Slides-Cowrie](https://it-kombinat.github.io/slides-splunk-snort/)
