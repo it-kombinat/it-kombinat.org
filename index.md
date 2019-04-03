@@ -7,9 +7,9 @@
 
 
 * [Docker Build](#Docker-Build)
-* [Docker for Ansible - Code Testing](#Docker for Ansible - Code Testing)
-* [Splunk as Docker Container](#Splunk as Docker Container)
-* [Kubernetes DEMO](# Kubernetes DEMO)
+* [Docker for Ansible - Code Testing](#Docker-Code)
+* [Splunk as Docker Container](#Splunk-Container)
+* [Kubernetes DEMO](#Kubernetes-DEMO)
 
 ### Docker Build <a name="Docker-Build)"/>
 
@@ -19,7 +19,7 @@ git clone https://github.com/it-kombinat/ansible-centos.git
 ```
 follow the instruction in the README.md
 
-#### Docker for Ansible - Code Testing
+### Docker for Ansible - Code Testing <a name="Docker-Code"/>
 Download Ansible Code
 ```
 git clone https://github.com/it-kombinat/ansible-os-hardening.git
@@ -36,7 +36,7 @@ Run Ansible-Playbook against Docker-Container - two times, for testing idempoten
 ```
 docker exec <container-id>  ansible-playbook /etc/ansible/roles/ansible-os-hardening/default.yml --skip-tags sysctl,mount
 ```
-### Splunk as Docker Container
+### Splunk as Docker Container <a name="Splunk-Container"/>
 Docker Container based on official Docker-Images by [Splunk)(https://github.com/splunk/docker-splunk)
 
 #### Before we start - Downloading Splunk apps
@@ -57,7 +57,7 @@ show docker logs of dettached container
 ```
 docker logs -f <container-id>
 ```
-### Kubernetes DEMO
+### Kubernetes DEMO <a name="Kubernetes-DEMO"/>
 Kubernetes Service EKS provided by [AWS](https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html#eks-guestbook)
 ```
 kubectl cluster-info
