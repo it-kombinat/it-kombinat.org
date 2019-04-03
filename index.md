@@ -1,11 +1,9 @@
 # Welcome to IT-Kombinat.org
 
-## Splunk Demo
-
-# Docker Demo
+## Docker Demo
 
 
-## Demo walkthrough
+### Demo walkthrough
 
 
 * [Docker Build](#Docker Build)
@@ -13,15 +11,15 @@
 * [Splunk as Docker Container](#Splunk as Docker Container)
 * [Kubernetes DEMO](# Kubernetes DEMO)
 
-## Docker Build
+### Docker Build
 
-# Clone the Build directory
+#### Clone the Build directory
 ```
 git clone https://github.com/it-kombinat/ansible-centos.git
 ```
 follow the instruction in the README.md
 
-## Docker for Ansible - Code Testing
+#### Docker for Ansible - Code Testing
 Download Ansible Code
 ```
 git clone https://github.com/it-kombinat/ansible-os-hardening.git
@@ -38,10 +36,10 @@ Run Ansible-Playbook against Docker-Container - two times, for testing idempoten
 ```
 docker exec <container-id>  ansible-playbook /etc/ansible/roles/ansible-os-hardening/default.yml --skip-tags sysctl,mount
 ```
-# Splunk as Docker Container
+### Splunk as Docker Container
 Docker Container based on official Docker-Images by [Splunk)(https://github.com/splunk/docker-splunk)
 
-## Before we start - Downloading Splunk apps
+#### Before we start - Downloading Splunk apps
 ```
 git clone https://github.com/it-kombinat/honeypot-app.git
 
@@ -59,7 +57,7 @@ show docker logs of dettached container
 ```
 docker logs -f <container-id>
 ```
-# Kubernetes DEMO
+### Kubernetes DEMO
 Kubernetes Service EKS provided by [AWS](https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html#eks-guestbook)
 ```
 kubectl cluster-info
@@ -68,12 +66,14 @@ kubectl get nodes
 
 kubectl get pods
 ```
-## Launch Demo Application on EKS
+#### Launch Demo Application on EKS
 
 * https://docs.aws.amazon.com/eks/latest/userguide/getting-started.html#eks-guestbook
 * https://kubernetes.io/docs/tutorials/stateless-application/guestbook/
 
-## SpaaS with Snort (IDS) and Cowrie (Honeypot)
+## Splunk Demo
+
+### SpaaS with Snort (IDS) and Cowrie (Honeypot)
 Second Demo - Deploying Splunk (SpaaS), Snort and Cowrie (Honeypot) with Ansible
 
 Splunk as a Service with on-boarding of the following services
@@ -90,8 +90,6 @@ git clone https://github.com/it-kombinat/splunk-demo.git
 
 [Splunk-Demo-Slides-Cowrie](https://it-kombinat.github.io/slides-splunk-snort/)
 
-
-## Splunk Demo
 
 Using the splunk demo by cloning the repository, further commands and instruction in README.md file.
 
