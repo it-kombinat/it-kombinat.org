@@ -1,4 +1,7 @@
-# Welcome to IT-Kombinat.org
+# Welcome to IT-Kombinat
+
+## Pentest-Cheat-Sheet
+[Notes for Pentesting](https://it-kombinat.github.io/pcs/)
 
 ## Docker Demo
 
