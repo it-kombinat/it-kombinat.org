@@ -1,4 +1,4 @@
-# Welcome to IT-Kombinat
+# Welcome to CyberKombinat
 
 ## Pentest-Cheat-Sheet
 [Notes for Pentesting](https://it-kombinat.github.io/pcs/)
